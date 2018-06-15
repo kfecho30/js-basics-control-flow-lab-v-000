@@ -20,7 +20,7 @@ function switchOnCharmFromTip(tip) {
   let msg
   switch(tip) {
     case (tip > 5):
-    msg = "Thanks so much!"
+    msg = "Thank you so much."
     break;
   }
   return msg
