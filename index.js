@@ -2,11 +2,11 @@
 function scuberGreetingForFeet(dist) {
   let msg
   if (dist <= 400) {
-    msg = "This one is one me!";
+    msg = "This one is on me!";
   } else if (dist < 2500) {
-    msg = "You owe $30.";
+    msg = "I will gladly take your thirty bucks.";
   } else {
-    msg = "Sorry, we don't go that far."
+    msg = "No can do"
   }
   return msg
 }
